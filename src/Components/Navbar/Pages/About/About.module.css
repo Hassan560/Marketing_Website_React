@@ -1,0 +1,131 @@
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 70px;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.left_side_about > img {
+  width: 500px;
+}
+.right_side_about {
+  margin-left: 100px;
+}
+.right_side_about > h1 {
+  font-size: 35px;
+  color: #000000c7;
+}
+.right_side_about > h1 > span {
+  color: #007cff;
+}
+.right_side_about > p {
+  margin: 0px;
+  color: #333333;
+  font-weight: 600;
+  font-size: 19px;
+  text-align: justify;
+}
+.right_side_about > button {
+  width: 150px;
+  height: 50px;
+  margin-right: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #007cff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.3s;
+  margin-top: 30px;
+}
+.right_side_about > button:hover {
+  background-color: transparent;
+  border: 1px solid #007cff;
+  color: #007cff;
+  transition: all 0.3s;
+}
+.right_side_about > li {
+  margin-top: 10px;
+  list-style: none;
+}
+@media screen and (max-width: 1185px) {
+  .left_side_about > img {
+    width: 450px;
+  }
+  .right_side_about > h1 {
+    font-size: 25px;
+  }
+  .right_side_about > p {
+    font-size: 13px;
+  }
+  .right_side_about {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .left_side_about > img {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .left_side_about > img {
+    width: 450px;
+    margin-top: 120px;
+  }
+  .right_side_about > h1 {
+    font-size: 35px;
+  }
+  .right_side_about > p {
+    font-size: 18px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .right_side_about {
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .left_side_about > img {
+    width: 350px;
+  }
+  .right_side_about > h1 {
+    font-size: 25px;
+  }
+  .right_side_about > p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .left_side_about > img {
+    width: 300px;
+  }
+  .right_side_about > h1 {
+    font-size: 20px;
+  }
+  .right_side_about > p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .left_side_about > img {
+    width: 250px;
+  }
+  .right_side_about > h1 {
+    font-size: 18px;
+  }
+  .right_side_about > p {
+    font-size: 19px;
+  }
+  .right_side_about > li {
+    font-size: 15px;
+  }
+}

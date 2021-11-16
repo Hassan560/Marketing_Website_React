@@ -1,0 +1,49 @@
+.services {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.services > h1 {
+  text-align: center;
+  color: #000000d4;
+  margin-top: 90px;
+  font-size: 35px;
+}
+.services > h1 > span {
+  color: #3435cec7;
+}
+
+.boxes {
+  display: inline-block;
+  width: 313px;
+  margin: 15px;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.boxes:hover {
+  box-shadow: 0px 0px 20px 0px #0000001f;
+}
+.boxes > .img {
+  font-size: 80px;
+}
+.boxes > h3 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.boxes > p {
+  margin: 5px 0px;
+}
+
+/* services media  */
+@media screen and (max-width: 585px) {
+  .services > h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .boxes {
+    width: 100%;
+  }
+}

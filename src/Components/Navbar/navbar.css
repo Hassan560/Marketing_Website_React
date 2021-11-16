@@ -1,0 +1,21 @@
+.right_Side_nav {
+  margin-right: 75px;
+}
+
+@media screen and (max-width: 770px) {
+  .right_Side_nav {
+    display: none;
+  }
+  .navLinksMobile {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #3435ce;
+    left: 0px;
+    top: 34px;
+    transition: all 0.8s ease-in-out;
+    width: 100%;
+    z-index: 1;
+  }
+}
